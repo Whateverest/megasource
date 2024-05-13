@@ -82,8 +82,20 @@
 /* Define to 1 if you have the <CUlib.h> header file. */
 #cmakedefine HAVE_CULIB_H
 
+/* /\* Define to 1 if you have the <dirent.h> header file. *\/ */
+/* #undef HAVE_DIRENT_H */
+
+/* /\* Define to 1 if you have the `dlclose' function. *\/ */
+/* #undef HAVE_DLCLOSE */
+
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #cmakedefine HAVE_DLFCN_H
+
+/* /\* Define to 1 if you have the `dlopen' function. *\/ */
+/* #undef HAVE_DLOPEN */
+
+/* Define to 1 if you have the `dlsym' function. */
+/* #undef HAVE_DLSYM */
 
 /* Define if getaddrinfo accepts the AI_ADDRCONFIG flag */
 #cmakedefine HAVE_GAI_ADDRCONFIG
@@ -219,6 +231,9 @@
 
 /* Define to 1 if you have the <sys/resource.h> header file. */
 #cmakedefine HAVE_SYS_RESOURCE_H
+
+/* Define to 1 if you have the <sys/select.h> header file. */
+// #undef HAVE_SYS_SELECT_H
 
 /* Define to 1 if you have the <sys/signal.h> header file. */
 #cmakedefine HAVE_SYS_SIGNAL_H
