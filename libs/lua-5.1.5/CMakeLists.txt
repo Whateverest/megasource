@@ -36,6 +36,7 @@ set(LUA_SRC
 	src/lvm.c
 	src/lzio.c
 	src/print.c
+	src/bit.c
 )
 
 if (LUA_BUILD_STATIC)
